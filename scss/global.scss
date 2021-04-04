@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding-top: 40px;
+    color: $grey;
+    background-color: #E5E5E5;
+    font-style: normal;
+    // font-family: $arialFont;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  button, 
+  button:active, 
+  button:focus,
+  input,
+  input:active,
+  input:focus {
+      outline: none;
+  }
+
+  a {
+    cursor: pointer;
+    color: $black;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  ul, li, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+      margin: 0 auto;
+      max-width: 1200px;
+      background: $white;
+      box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.04);
+      border-radius: 8px;
+  }
+

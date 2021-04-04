@@ -1,0 +1,6 @@
+.modal {
+  position: relative;
+  box-sizing: border-box;
+  padding: 25px 35px;
+  display: flex;
+}

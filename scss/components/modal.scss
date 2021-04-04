@@ -1,0 +1,12 @@
+.modal {
+    position: relative;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+}
+
+@media screen and (max-width: $tabletWidth) {
+    .modal {
+        flex-direction: column;
+    }
+}
